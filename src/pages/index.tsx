@@ -45,7 +45,7 @@ const IndexPage = () => {
               }
             >
               {"Aura Edit - Cross Platform"}{" "}
-              <span className={"text-palette-primary"}>{"PDF"}</span>
+              <span className={"text-[#f5d2c6]"}>{"PDF"}</span>
               {" Editor"}
             </h1>
             <p

@@ -32,7 +32,7 @@ const Subscribe = ({ setSubscribed }: SubscribeProps) => {
     >
       <input
         className={
-          "border border-r-0 border-palette-light rounded-l-lg w-2/3 focus:outline-none focus:ring-1 focus:ring-palette-primary"
+          "border border-r-0 border-palette-light rounded-l-lg w-2/3 focus:outline-none focus:ring-1 focus-visible:ring-[#7e4721]"
         }
         type={"email"}
         required={true}
@@ -43,8 +43,8 @@ const Subscribe = ({ setSubscribed }: SubscribeProps) => {
         type={"submit"}
         className={classNames(
           clicked ? "pointer-events-none	opacity-75" : "",
-          `py-3 px-4 bg-palette-primary hover:bg-palette-dark text-white text-sm sm:text-base font-semibold rounded-r-lg border border-transparent
-          focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-palette-primary`,
+          `py-3 px-4 bg-[#f5d2c6] hover:opacity-75 text-white text-sm sm:text-base font-semibold rounded-r-lg border border-transparent
+          focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#7e4721]`,
         )}
       >
         {"Subscribe"}
