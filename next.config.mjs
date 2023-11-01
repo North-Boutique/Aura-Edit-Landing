@@ -2,6 +2,7 @@
 
 const nextConfig = {
   output: "export",
+  reactStrictMode: true,
   env: {
     siteTitle: "Aura Editor",
     siteDescription: "Cross Platform PDF editor rich with features.",
