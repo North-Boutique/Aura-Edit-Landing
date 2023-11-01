@@ -23,11 +23,11 @@ const IndexPage = () => {
         }
       >
         <Image
-          className="pb-10"
+          className={"pb-10"}
           src={"/images/icon.ico"}
           width={"75"}
           height={"75"}
-          alt="icon"
+          alt={"icon"}
         />
         {subscribed ? (
           <h1
